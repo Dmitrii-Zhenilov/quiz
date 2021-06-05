@@ -42,7 +42,7 @@ p {
 }
 
 .main-page-wrapper {
-    background: url(/img/fon_top.jpg) center top no-repeat, url(/img/fon_bot.jpg) right bottom no-repeat;
+    background: url(../img/fon_top.jpg) center top no-repeat, url(../img/fon_bot.jpg) right bottom no-repeat;
 }
 
 .header {
@@ -287,7 +287,7 @@ p {
     vertical-align: top;
     width: 489px;
     height: 505px;
-    background: url(/img/about.jpg) center center / cover no-repeat;
+    background: url(../img/about.jpg) center center / cover no-repeat;
 }
 
 .about__company {
