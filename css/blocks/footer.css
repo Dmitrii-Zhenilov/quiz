@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.footer-container--line {
+.footer__line {
     border-top: 1px solid;
     mix-blend-mode: normal;
     opacity: 0.1;
