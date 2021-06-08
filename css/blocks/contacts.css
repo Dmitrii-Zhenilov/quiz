@@ -1,0 +1,24 @@
+.contacts {
+    position: absolute;
+    text-align: right;
+    font-style: normal;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 13px;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 2px;
+}
+
+.contacts__info {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__desc {
+    color: #9A9A9A;
+    font-size: 11px;
+}

@@ -1,0 +1,19 @@
+.button {
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 16px 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button--light {
+    border: 1px solid #8F00FF;
+    background: #fff
+}
+
+.button--transperent {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}

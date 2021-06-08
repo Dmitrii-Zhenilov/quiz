@@ -1,0 +1,46 @@
+.about {
+    text-align: right;
+    position: relative;
+    margin-bottom: 53px;
+}
+
+.about:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 489px;
+    height: 505px;
+    background: url(../../img/about.jpg) center center / cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about__company {
+    background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+    padding: 80px 70px;
+    display: inline-block;
+    vertical-align: top;
+    width: 785px;
+    position: relative;
+    margin-top: 97px;
+    text-align: left;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 37px;
+}
+
+.about__text {
+    margin-bottom: 42px;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}

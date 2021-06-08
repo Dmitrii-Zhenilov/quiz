@@ -1,0 +1,14 @@
+.logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.logo--footer {
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    position: absolute;
+}

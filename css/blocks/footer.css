@@ -1,0 +1,10 @@
+.footer-container {
+    height: 146px;
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}

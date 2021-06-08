@@ -1,0 +1,15 @@
+.title {
+    font-size: 36px;
+}
+
+.title--news {
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 193px;
+}
+
+.title--past {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 46px;
+}
