@@ -4,9 +4,7 @@
 
 .news__item {
     background: #fff;
-    display: inline-block;
-    margin-right: 22px;
-    width: 362px;
+    width: calc(100% / 3 - 18px);
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -33,11 +31,12 @@
     margin-bottom: 30px;
 }
 
+.news__features {
+    display: flex;
+    justify-content: space-between;
+}
+
 .news__feature {
-    display: inline-block;
-    vertical-align: top;
-    width: 110px;
-    margin-right: 30px;
     margin-bottom: 23px;
 }
 
@@ -52,4 +51,10 @@
 .news__text {
     font-size: 14px;
     margin-bottom: 25px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }

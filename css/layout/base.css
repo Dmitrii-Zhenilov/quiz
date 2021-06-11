@@ -30,6 +30,11 @@ p {
     margin-top: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -65,3 +70,31 @@ p {
     margin-right: auto;
 }
 
+.top__line {
+    min-height: 108px;
+    padding-bottom: 20px;
+}
+
+.top__line::before {
+    background: url(../../img/games/games-fon.png) top no-repeat;
+    background-color: #171a1d;
+    mix-blend-mode: luminosity;
+    box-shadow: inset 0px -46px 50px #17191c;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.top-line__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}

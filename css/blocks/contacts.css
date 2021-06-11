@@ -1,10 +1,6 @@
 .contacts {
-    position: absolute;
     text-align: right;
     font-style: normal;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 13px;
 }
 
 .contacts__phone {

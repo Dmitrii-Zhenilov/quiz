@@ -1,5 +1,23 @@
 .header {
-    height: 100px;
-    position: relative;
     margin-bottom: 99px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.header__col--right {
+    justify-content: flex-end;
+}
+
+.header__container {
+    padding-top: 29px;
 }

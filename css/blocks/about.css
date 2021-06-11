@@ -1,4 +1,6 @@
 .about {
+    display: flex;
+    justify-content: end;
     text-align: right;
     position: relative;
     margin-bottom: 53px;
@@ -6,8 +8,7 @@
 
 .about:before {
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 489px;
     height: 505px;
     background: url(../../img/about.jpg) center center / cover no-repeat;
@@ -19,8 +20,6 @@
 .about__company {
     background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
     padding: 80px 70px;
-    display: inline-block;
-    vertical-align: top;
     width: 785px;
     position: relative;
     margin-top: 97px;

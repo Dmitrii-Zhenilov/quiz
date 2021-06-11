@@ -1,9 +1,7 @@
-.menu {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 419px;
+.menu__list {
+    margin-left: 75px;
 }
+
 
 .menu__item {
     display: inline-block;

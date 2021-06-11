@@ -1,8 +1,5 @@
 .socials {
-    top: 50%;
-    transform: translateY(-50%);
-    right: 300px;
-    position: absolute;
+margin-right: 74px;
 }
 
 .socials__link {

@@ -1,0 +1,33 @@
+.games {
+    background: #F2F2F2;
+    color: #303030;
+}
+
+.games__list {
+    display: flex;
+}
+
+.games__img {
+    width: 30%;
+    margin-right: 7%;
+}
+
+.games__content {
+    flex: 1;
+}
+
+.games__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: #000000;
+}
+
+.games__text {
+    margin-bottom: 34px;
+}
+
+.button--games {
+    color: #fff
+}
+
