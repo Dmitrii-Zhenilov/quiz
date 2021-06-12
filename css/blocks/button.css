@@ -10,10 +10,16 @@
 
 .button--light {
     border: 1px solid #8F00FF;
-    background: #fff
+    background: #fff;
+    color: #8F00FF;
+    
 }
 
 .button--transperent {
     background: rgba(0, 0, 0, 0);
     border: 1px solid #FFFFFF;
+}
+
+.button--text--light {
+    color: #fff;
 }

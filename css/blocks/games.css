@@ -3,12 +3,8 @@
     color: #303030;
 }
 
-.games__list {
-    display: flex;
-}
-
 .games__img {
-    width: 30%;
+    width: 40%;
     margin-right: 7%;
 }
 
@@ -25,9 +21,12 @@
 
 .games__text {
     margin-bottom: 34px;
+    color: #303030;
 }
 
-.button--games {
-    color: #fff
+.games__item {
+    display: flex;
+    padding: 50px 0px;
 }
+
 

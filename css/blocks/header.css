@@ -11,13 +11,12 @@
 .header__col {
     display: flex;
     align-items: center;
-    margin-top: 34px;
 }
 
 .header__col--right {
     justify-content: flex-end;
 }
 
-.header__container {
-    padding-top: 29px;
+.top__line {
+    padding: 20px 0px;
 }

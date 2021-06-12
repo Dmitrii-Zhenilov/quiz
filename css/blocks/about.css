@@ -1,6 +1,7 @@
 .about {
     display: flex;
     justify-content: end;
+    flex-direction: row-reverse;
     text-align: right;
     position: relative;
     margin-bottom: 53px;
