@@ -13,9 +13,6 @@
     align-items: center;
 }
 
-.header__col--right {
-    justify-content: flex-end;
-}
 
 .top__line {
     padding: 20px 0px;

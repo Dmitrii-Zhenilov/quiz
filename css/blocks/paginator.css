@@ -28,6 +28,7 @@
     line-height: 32px;
 }
 
-.paginator__item--active .paginator__link{
+.paginator__item--active .paginator__link, .paginator__item:hover .paginator__link{
     background: #8F00FF;
+    color: #FFF;
 }
