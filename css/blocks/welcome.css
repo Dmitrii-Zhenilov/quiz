@@ -1,0 +1,15 @@
+.welcome__bg {
+    background: url(../../img/fon_top.png) no-repeat;
+    background-color: #171a1d;
+    mix-blend-mode: luminosity;
+    box-shadow: inset 0px -46px 50px #17191c;
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}

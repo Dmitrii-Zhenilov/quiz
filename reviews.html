@@ -43,16 +43,15 @@
                     <main class="maincontent">
                         <div class="container">
                             <section class="hero">
-                            
                                 <h1 class="hero__title">Отзывы</h1>
-                        </section>
+                            </section>
                             <nav class="breadcrumbs">
                                 <ul class="breadcrumbs__list">
                                     <li class="breadcrumbs__item">
                                         <a href="#" class="breadcrumbs__link">Главная</a>
                                     </li>
                                     <li class="breadcrumbs__link breadcrumbs__item--active">
-                                        <a href="#"   class="breadcrumbs__active-link">Отзывы</a>
+                                        <a href="#"  class="breadcrumbs__active-link">Отзывы</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -60,72 +59,124 @@
                     </div>
                 </div>
             </section>
-
-        <main class="reviews">
-            <div class="container">
-                <ul class="reviews__list">
-                    <li class="revievs__item">
-                        <img src="./img/reviews/ivan.jpg" alt="ivan" class="revievs__img">
-                        <div class="revievs__name">Иван Петрович</div>
-                        <img src="./img/reviews/vk_blue.png" alt="ivan" class="revievs__vk-blue">
-                        <div class="revievs__sticker">90-e</div>
-                            <h2 class="revievs__title">Крутой квиз про 90-е</h2>
-                            <div class="revievs__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+            <main class="reviews">
+                <div class="container">
+                    <ul class="reviews__list">
+                        <li class="reviews__item review">
+                            <div class="reviews__header">
+                                <div class="review__pfoto">
+                                    <div class="avatar">
+                                        <img src="./img/reviews/ivan.jpg" alt="ivan">
+                                    </div>
+                                </div>
+                                <div class="reviews__userdata">
+                                    <a href="#" class="review__user">Иван Петрович</a>
+                                </div>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">90-е</li>
+                                </ul>
                             </div>
-                        <div class="revievs__date">Ноябрь 2019</div>
-                    </li>
-                    <li class="revievs__item">
-                        <img src="./img/reviews/kat.jpg" alt="kat" class="revievs__img">
-                        <div class="revievs__name">Екатерина Жмых</div>
-                        <img src="./img/reviews/vk_blue.png" alt="ivan" class="revievs__vk-blue">
-                        <div class="revievs__sticker">IT-викторина</div>
-                            <h2 class="revievs__title">Очень понравилась викторина</h2>
-                            <div class="revievs__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                                <div class="review__content">
+                                    <h3 class="review__title">Крутой квиз про 90-е.</h3>
+                                    <div class="rewiew__content-text">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                                    </div>
+                                    <div class="time-review">Ноябрь 2019</div>
+                                </div>    
+                        </li>
+                        <li class="reviews__item review">
+                            <div class="reviews__header">
+                                <div class="review__pfoto">
+                                    <div class="avatar">
+                                        <img src="./img/reviews/kat.jpg" alt="kat">
+                                    </div>
+                                </div>
+                                <div class="reviews__userdata">
+                                    <a href="#" class="review__user">Екатерина Жмых</a>
+                                </div>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">IT-викторина</li>
+                                </ul>
                             </div>
-                        <div class="revievs__date">Ноябрь 2019</div>
-                    </li>
-                    <li class="revievs__item">
-                        <img src="./img/reviews/liza.jpg" alt="liza" class="revievs__img">
-                        <div class="revievs__name">Лиза Сидорова</div>
-                        <img src="./img/reviews/vk_blue.png" alt="ivan" class="revievs__vk-blue">
-                        <div class="revievs__sticker">Кино и музыка</div>
-                            <h2 class="revievs__title">Интерестный квиз</h2>
-                            <div class="revievs__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.  </p>
+                                <div class="review__content">
+                                    <h3 class="review__title">Очень понравилась 
+                                        викторина.</h3>
+                                    <div class="rewiew__content-text">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                                    </div>
+                                    <div class="time-review">Ноябрь 2019</div>
+                                </div> 
+                        </li>
+                        <li class="reviews__item review">
+                            <div class="reviews__header">
+                                <div class="review__pfoto">
+                                    <div class="avatar">
+                                        <img src="./img/reviews/liza.jpg" alt="liza">
+                                    </div>
+                                </div>
+                                <div class="reviews__userdata">
+                                    <a href="#" class="review__user">Лиза Сидорова</a>
+                                </div>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">Кино и музыка</li>
+                                </ul>
                             </div>
-                        <div class="revievs__date">Ноябрь 2019</div>
-                    </li>
-                    <li class="revievs__item">
-                        <img src="./img/reviews/anton.jpg" alt="anton" class="revievs__img">
-                        <div class="revievs__name">Антон Игоревич</div>
-                        <img src="./img/reviews/vk_blue.png" alt="ivan" class="revievs__vk-blue">
-                        <div class="revievs__sticker">Гарри Поттер</div>
-                            <h2 class="revievs__title">Был первый раз, очень круто.
-                                Не пожалел, что сходил!</h2>
-                            <div class="revievs__text">
-                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                                <div class="review__content">
+                                    <h3 class="review__title">Интерестный квиз.</h3>
+                                    <div class="rewiew__content-text">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.  </p>
+                                    </div>
+                                    <div class="time-review">Ноябрь 2019</div>
+                                </div>    
+                        </li>
+                        <li class="reviews__item review">
+                            <div class="reviews__header">
+                                <div class="review__pfoto">
+                                    <div class="avatar">
+                                        <img src="./img/reviews/anton.jpg" alt="anton">
+                                    </div>
+                                </div>
+                                <div class="reviews__userdata">
+                                    <a href="#" class="review__user">Антон Игорьевич</a>
+                                </div>
+                                <ul class="review__tags">
+                                    <li class="review__tag-item tag tag--bg--green">Гарри Поттер</li>
+                                </ul>
                             </div>
-                        <div class="revievs__date">Ноябрь 2019</div>
-                    </li>
-                </ul>
-                <div class="paginator">
-                    <div class="paginator__page">Страница 1 из 7</div>
-                    <ul class="paginator__list">
-                        <li class="paginator__item paginator__item--active"><a href="#"
-                                class="paginator__link">1</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
-                        <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+                                <div class="review__content">
+                                    <h3 class="review__title">Был первый раз, очень круто.
+                                        Не пожалел, что сходил!</h3>
+                                    <div class="rewiew__content-text">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. </p>
+                                    </div>
+                                    <div class="time-review">Ноябрь 2019</div>
+                                </div>    
+                        </li>
                     </ul>
+                    <div class="paginator">
+                        <div class="paginator__page">Страница 1 из 7</div>
+                        <ul class="paginator__list">
+                            <li class="paginator__item paginator__item--active"><a href="#"
+                                    class="paginator__link">1</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+                            <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <section class="revievs__line">
-                    <h3 class="revievs__line-title">Подберём игру для вас</h3>
-                    <img src="./img/reviews/revies_bot.jpg" alt="revies_bot" class="revies_bot">
+            </main>
+            
+                
+                <div class="container">
+                <section class="separator">
+                    <div class="separator__content">
+                        <h2 class="separator__title">
+                            Подберём игру для вас!
+                        </h2>
+                    </div>
                 </section>
                 <section class="form">
                     <h4 class="form__title">Оставьте отзыв</h4>
@@ -147,6 +198,7 @@
                         <button type="submit" class="button button--sent">отправить</button> 
                     </form>
                 </section>
+                </div>
             </div>
         </main>
 
