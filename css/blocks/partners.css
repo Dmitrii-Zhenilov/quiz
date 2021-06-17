@@ -22,3 +22,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.partners__link {
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0%)
+}

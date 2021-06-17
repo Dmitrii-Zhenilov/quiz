@@ -1,5 +1,6 @@
 .button {
     background: #8F00FF;
+    color: #fff;
     border-radius: 5px;
     padding: 16px 32px;
     font-weight: bold;
@@ -8,11 +9,19 @@
     display: inline-block;
 }
 
+.hello__button:hover {
+    box-shadow: 0 0 25px 0 #741BBA;
+}
+
 .button--light {
     border: 1px solid #8F00FF;
     background: #fff;
-    color: #8F00FF;
-    
+    color: #8F00FF;  
+}
+
+.button--light:hover {
+    background: #8F00FF;
+    color: #fff;
 }
 
 .button--transperent {
@@ -22,4 +31,21 @@
 
 .button--text--light {
     color: #fff;
+}
+
+.button--welcome {
+    width: 160px;
+    text-align: center;
+}
+
+.button--grey {
+    background: #8E8E8E;
+}
+
+.button--grey:hover {
+    background: #2B2B2B;
+}
+
+.button--sent:hover {
+    background: #741BBA;
 }
