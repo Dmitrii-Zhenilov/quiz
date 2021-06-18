@@ -1,6 +1,6 @@
 .partners {
     background: #F4F5F5;
-    padding: 178px 0px;
+    padding: 64px 0px;
     color: #1A1B1E;
 }
 
@@ -28,5 +28,6 @@
 }
 
 .partners__link:hover {
-    filter: grayscale(0%)
+    filter: grayscale(0%);
+    transition: filter 0.5s;   
 }

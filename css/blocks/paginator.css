@@ -4,10 +4,14 @@
     align-items: center;
 }
 
+.paginator__games {
+    padding-top: 21px;
+    padding-bottom: 85px;
+    padding-left: 31px;
+}
 
 .paginator__page {
     margin-right: 26px;
-    color: #000000;
     font-size: 16px;
 }
 
@@ -28,7 +32,6 @@
     text-decoration: none;
     font-weight: bold;
     line-height: 32px;
-    color: #000000;
 }
 
 .paginator__item--active .paginator__link, .paginator__item:hover .paginator__link{

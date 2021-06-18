@@ -21,14 +21,14 @@
 
 
 .news__content {
-    padding: 30px 36px;
+    padding: 35px 24px;
     color: #303030;
 }
 
 .news__title {
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .news__features {

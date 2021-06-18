@@ -16,8 +16,13 @@
 
 .menu__link:hover {
     color: #8F00FF;
+    transition: color 0.5s;
 }
 
 .menu--footer {
     left: 211px;
+}
+
+.menu__list--welcome {
+    margin-left: 267px;
 }
