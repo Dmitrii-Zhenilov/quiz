@@ -23,16 +23,17 @@
     background: #EDEDED;
     color: #1E1F20;
     font-size: 13px;
-    opacity: 0.8;
+    font-weight: bold;
+    opacity: 0;
     border-radius: 4px;
     padding: 15px 25px;
-    margin-top: 5px;
+    margin-top: 10px;
     position: absolute;
     margin-left: 25px;
     pointer-events: none;
 }
 
-.contacts__info:hover .contacts__drop {
+.contacts:hover .contacts__drop {
     opacity: 1;
     pointer-events: visible;
 }
@@ -53,7 +54,7 @@
 .contacts__drop::after {
     content: "";
     display: block;
-    height: 9px;
+    height: 10px;
     width: 100%;
     position: absolute;
     bottom: 100%;

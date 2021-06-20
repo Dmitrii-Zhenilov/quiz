@@ -5,9 +5,11 @@
 }
 
 .paginator__games {
-    padding-top: 21px;
-    padding-bottom: 85px;
-    padding-left: 31px;
+    padding: 93px 0px;
+}
+
+.paginator__rewiews {
+    padding: 48px 0px;
 }
 
 .paginator__page {

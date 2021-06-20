@@ -33,8 +33,16 @@
                             </nav>
                             <address class="contacts">
                                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                                <div class="contacts__info">График работы</div>
-                            </address>
+                                <div class="contacts__info">
+                                    <a href="#" class="contacts__work">График работы</a>
+                                </div>
+                                <div class="contacts__drop">
+                                    <ul class="contacts__list">
+                                        <li class="contacts__item">пн-вс: 09:00 - 20:00</li>
+                                        <li class="contacts__item">Обед: 14:00-14:30</li>
+                                    </ul>
+                                </div>
+                            </address>   
                         </div>
                     </header>
                 </div>
@@ -51,7 +59,7 @@
                                         <a href="#" class="breadcrumbs__link">Главная</a>
                                     </li>
                                     <li class="breadcrumbs__link breadcrumbs__item--active">
-                                        <a href="#"  class="breadcrumbs__active-link">Отзывы</a>
+                                        <span class="breadcrumbs__link breadcrumbs__link_active">Отзывы</span>
                                     </li>
                                 </ul>
                             </nav>
@@ -64,17 +72,17 @@
                     <ul class="reviews__list">
                         <li class="reviews__item review">
                             <div class="reviews__header">
-                                <div class="review__pfoto">
+                                <div class="review__photo">
                                     <div class="avatar">
                                         <img src="./img/reviews/ivan.jpg" alt="ivan">
                                     </div>
                                 </div>
                                 <div class="reviews__userdata">
                                     <a href="#" class="review__user">Иван Петрович</a>
+                                    <ul class="review__tags">
+                                        <li class="review__tag-item tag tag--bg--green">90-е</li>
+                                    </ul>
                                 </div>
-                                <ul class="review__tags">
-                                    <li class="review__tag-item tag tag--bg--green">90-е</li>
-                                </ul>
                             </div>
                                 <div class="review__content">
                                     <h3 class="review__title">Крутой квиз про 90-е.</h3>
@@ -86,17 +94,39 @@
                         </li>
                         <li class="reviews__item review">
                             <div class="reviews__header">
-                                <div class="review__pfoto">
+                                <div class="review__photo">
+                                    <div class="avatar">
+                                        <img src="./img/reviews/liza.jpg" alt="liza">
+                                    </div>
+                                </div>
+                                <div class="reviews__userdata">
+                                    <a href="#" class="review__user">Лиза Сидорова</a>
+                                    <ul class="review__tags">
+                                        <li class="review__tag-item tag tag--bg--green">Кино и музыка</li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <div class="review__content">
+                                    <h3 class="review__title">Интерестный квиз.</h3>
+                                    <div class="rewiew__content-text">
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.  </p>
+                                    </div>
+                                    <div class="time-review">Ноябрь 2019</div>
+                                </div>    
+                        </li>
+                        <li class="reviews__item review">
+                            <div class="reviews__header">
+                                <div class="review__photo">
                                     <div class="avatar">
                                         <img src="./img/reviews/kat.jpg" alt="kat">
                                     </div>
                                 </div>
                                 <div class="reviews__userdata">
                                     <a href="#" class="review__user">Екатерина Жмых</a>
+                                    <ul class="review__tags">
+                                        <li class="review__tag-item tag tag--bg--green">IT-викторина</li>
+                                    </ul>
                                 </div>
-                                <ul class="review__tags">
-                                    <li class="review__tag-item tag tag--bg--green">IT-викторина</li>
-                                </ul>
                             </div>
                                 <div class="review__content">
                                     <h3 class="review__title">Очень понравилась 
@@ -109,39 +139,17 @@
                         </li>
                         <li class="reviews__item review">
                             <div class="reviews__header">
-                                <div class="review__pfoto">
-                                    <div class="avatar">
-                                        <img src="./img/reviews/liza.jpg" alt="liza">
-                                    </div>
-                                </div>
-                                <div class="reviews__userdata">
-                                    <a href="#" class="review__user">Лиза Сидорова</a>
-                                </div>
-                                <ul class="review__tags">
-                                    <li class="review__tag-item tag tag--bg--green">Кино и музыка</li>
-                                </ul>
-                            </div>
-                                <div class="review__content">
-                                    <h3 class="review__title">Интерестный квиз.</h3>
-                                    <div class="rewiew__content-text">
-                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.  </p>
-                                    </div>
-                                    <div class="time-review">Ноябрь 2019</div>
-                                </div>    
-                        </li>
-                        <li class="reviews__item review">
-                            <div class="reviews__header">
-                                <div class="review__pfoto">
+                                <div class="review__photo">
                                     <div class="avatar">
                                         <img src="./img/reviews/anton.jpg" alt="anton">
                                     </div>
                                 </div>
                                 <div class="reviews__userdata">
                                     <a href="#" class="review__user">Антон Игорьевич</a>
+                                    <ul class="review__tags">
+                                        <li class="review__tag-item tag tag--bg--green">Гарри Поттер</li>
+                                    </ul>
                                 </div>
-                                <ul class="review__tags">
-                                    <li class="review__tag-item tag tag--bg--green">Гарри Поттер</li>
-                                </ul>
                             </div>
                                 <div class="review__content">
                                     <h3 class="review__title">Был первый раз, очень круто.
@@ -153,7 +161,7 @@
                                 </div>    
                         </li>
                     </ul>
-                    <div class="paginator">
+                    <div class="paginator paginator__rewiews">
                         <div class="paginator__page">Страница 1 из 7</div>
                         <ul class="paginator__list">
                             <li class="paginator__item paginator__item--active"><a href="#"
@@ -168,15 +176,16 @@
                     </div>
                 </div>
             </main>
+            <section class="separator">
                 <div class="container">
-                    <section class="separator">
-                        <div class="separator__content">
-                            <h2 class="separator__title">
-                                Подберём игру для вас!
-                            </h2>
-                        </div>
-                    </section>
+                    <div class="separator__content">
+                        <h2 class="separator__title">
+                            Подберём игру для вас!
+                        </h2>
+                    </div>
                 </div>
+            </section>
+                
                 <section class="inner__gray">
                     <div class="container">
                         <h4 class="inner__title">Оставьте отзыв</h4>

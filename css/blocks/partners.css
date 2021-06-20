@@ -1,13 +1,14 @@
 .partners {
     background: #F4F5F5;
-    padding: 64px 0px;
+    padding-top: 156px;
     color: #1A1B1E;
+    padding: 76px 0px;
 }
 
 .partners__title {
     font-weight: bold;
     font-size: 48px;
-    margin-bottom: 75px;
+    margin-bottom: 48px;
 }
 
 .partners__list {

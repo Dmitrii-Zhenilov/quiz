@@ -1,6 +1,8 @@
 .reviews {
     background: #fff;
     color: #000000;
+    padding-top: 103px;
+    padding-bottom: 135px;
 }
 
 .review {
@@ -8,6 +10,10 @@
     flex-direction: column;
     padding: 50px 30px;
     background: #F4F5F5;
+}
+
+.reviews__userdata {
+    padding-left: 20px;
 }
 
 .reviews__item {
@@ -37,10 +43,15 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #2E77A4;
     margin-bottom: 11px;
-    margin-left: 20px;
+    text-decoration: none;
 }
+
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
 
 .review__user::after {
     content: url(../../img/reviews/vk_blue.png);
@@ -75,6 +86,7 @@
 .rewiew__content-text {
     color: #818181;
     margin-bottom: 48px;
+    line-height: 27px;
 }
 
 .time-review {
