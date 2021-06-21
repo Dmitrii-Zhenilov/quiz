@@ -54,6 +54,7 @@
 .button--grey {
     background: #8E8E8E;
     margin-right: 17px;
+    padding: 16px 40px;
 }
 
 .button--grey:hover {
@@ -64,4 +65,8 @@
 .button--sent:hover {
     background: #741BBA;
     transition: background 0.5s;
+}
+
+.button--light--games {
+    padding: 15px 33px;
 }

@@ -1,6 +1,7 @@
 .games {
     background: #FFF;
     color: #303030;
+    padding-bottom: 87px;
 }
 
 .games__img {
@@ -36,6 +37,7 @@
 
 .games__list {
     padding-top: 54px;
+    margin-bottom: 89.5px;
 }
 
 

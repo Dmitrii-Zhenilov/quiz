@@ -2,7 +2,7 @@
     background: #fff;
     color: #000000;
     padding-top: 103px;
-    padding-bottom: 135px;
+    padding-bottom: 87px;
 }
 
 .review {
@@ -23,6 +23,7 @@
 .reviews__list {
     column-count: 2;
     column-gap: 17px;
+    margin-bottom: 44.5px;
 }
 
 .reviews__header {

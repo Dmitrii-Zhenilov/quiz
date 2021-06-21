@@ -55,7 +55,7 @@ button {
 }
 
 .main-page-wrapper:before {
-    background: url(../../img/fon_top.png) center top no-repeat, url(../../img/fon_bot.png) center bottom no-repeat;
+    background: url(../../img/fon_top.png) center top no-repeat, url(../../img/fon_bot.png) center 92% no-repeat;
     background-color: #171a1d;
     mix-blend-mode: luminosity;
     box-shadow: inset 0px -46px 50px #17191c;

@@ -1,5 +1,6 @@
 .news {
-    margin-bottom: 127px;
+    margin-bottom: 125px;
+    margin-top: 192px;
 }
 
 .news__item {
@@ -21,7 +22,7 @@
 
 
 .news__content {
-    padding: 35px 24px;
+    padding: 30px 22px;
     color: #303030;
 }
 

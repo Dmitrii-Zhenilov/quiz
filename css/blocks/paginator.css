@@ -4,14 +4,6 @@
     align-items: center;
 }
 
-.paginator__games {
-    padding: 93px 0px;
-}
-
-.paginator__rewiews {
-    padding: 48px 0px;
-}
-
 .paginator__page {
     margin-right: 26px;
     font-size: 16px;
