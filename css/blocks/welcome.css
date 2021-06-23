@@ -9,6 +9,8 @@
 .welcome::after {
     background: url(../../img/fon_top.png) no-repeat;
     background-color: #171a1d;
+    background-position: center;
+    background-size: cover;
     mix-blend-mode: luminosity;
     box-shadow: inset 0px -46px 50px #17191c;
     content: "";

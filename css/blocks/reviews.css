@@ -32,6 +32,10 @@
     margin-bottom: 27px;
 }
 
+.rewiew__content-text p {
+    margin: 0;
+}
+
 .avatar {
     width: 142px;
     height: 142px;

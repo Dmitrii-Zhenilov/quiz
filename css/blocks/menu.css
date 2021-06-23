@@ -26,3 +26,7 @@
 .menu__list--welcome {
     margin-left: 267px;
 }
+
+.menu__link--active {
+    color: #8F00FF;
+}

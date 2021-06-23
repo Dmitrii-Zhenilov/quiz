@@ -2,12 +2,20 @@
     cursor: pointer;
 }
 
-.controls__checkbox:checked ~ .controls__tag {
+input.controls__checkbox:focus:not(:checked) ~ .controls__tag {
+    background: #c8f8f2ed;
+}
+
+.controls__checkbox:checked ~ .tag.controls__tag {
     background: #B9EAE4;
 }
 
 .controls__checkbox {
-    display: none;
+position: absolute;
+clip: rect(0 0 0 0);
+width: 1px;
+height: 1px;
+margin: -1px;
 }
 
 .form__controls {
